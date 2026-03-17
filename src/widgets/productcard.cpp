@@ -1,4 +1,4 @@
-#include "productcard.h"
+#include "widgets/productcard.h"
 #include <QFont>
 
 ProductCard::ProductCard(const Product &product, QWidget *parent)

@@ -1,13 +1,13 @@
-#include "mainwindow.h"
-#include "ui_mainwindow.h"
+#include "windows/mainwindow.h"
+#include "ui/ui_mainwindow.h"
 
-#include "database_manager.h"
-#include "productdetails.h"
-#include "productcard.h"
-#include "catalogwindow.h"
-#include "favoriteswindow.h"
-#include "cartwindow.h"
-#include "savedpopup.h"
+#include "database/database_manager.h"
+#include "widgets/productdetails.h"
+#include "widgets/productcard.h"
+#include "windows/catalogwindow.h"
+#include "windows/favoriteswindow.h"
+#include "windows/cartwindow.h"
+#include "widgets/savedpopup.h"
 
 #include <QVBoxLayout>
 #include <QHBoxLayout>
@@ -94,10 +94,10 @@ QWidget* MainWindow::createFooter() {
     footerLayout->setContentsMargins(15, 0, 15, 0);
     footerLayout->setSpacing(20);
 
-    QStringList icons = { "C:/Users/fast25/OneDrive/Pictures/Хлам/assets/instagram.png",
-                         "C:/Users/fast25/OneDrive/Pictures/Хлам/assets/tiktok.png",
-                         "C:/Users/fast25/OneDrive/Pictures/Хлам/assets/twitter.png",
-                         "C:/Users/fast25/OneDrive/Pictures/Хлам/assets/youtube.png" };
+    QStringList icons = { "assets/instagram.png",
+                         "assets/tiktok.png",
+                         "assets/twitter.png",
+                         "assets/youtube.png" };
 
     for (const QString &iconPath : icons) {
         QLabel *icon = new QLabel(footer);

@@ -2,7 +2,7 @@
 #define PRODUCTDETAILS_H
 
 #include <QDialog>
-#include "database_manager.h"
+#include "database/database_manager.h"
 
 class QLabel;
 

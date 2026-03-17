@@ -1,4 +1,4 @@
-#include "producteditor.h"
+#include "widgets/producteditor.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QLabel>

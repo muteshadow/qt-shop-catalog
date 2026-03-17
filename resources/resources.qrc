@@ -1,10 +1,15 @@
 <RCC>
-    <qresource prefix="/assets">
-        <file>assets/product1.jpg</file>
-        <file>assets/product2.jpg</file>
-        <file>assets/product3.jpg</file>
-        <file>assets/product4.jpg</file>
-        <file>assets/product5.jpg</file>
-        <file>assets/product6.jpg</file>
+    <qresource prefix="/">
+        <file>../assets/intro.png</file>
+        <file>../assets/product1.jpg</file>
+        <file>../assets/product2.jpg</file>
+        <file>../assets/product3.jpg</file>
+        <file>../assets/product4.jpg</file>
+        <file>../assets/product5.jpg</file>
+        <file>../assets/product6.jpg</file>
+        <file>../assets/instagram.png</file>
+        <file>../assets/tiktok.png</file>
+        <file>../assets/twitter.png</file>
+        <file>../assets/youtube.png</file>
     </qresource>
 </RCC>

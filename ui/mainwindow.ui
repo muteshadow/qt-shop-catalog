@@ -242,7 +242,7 @@
        </rect>
       </property>
       <property name="pixmap">
-       <pixmap>C:/Users/fast25/OneDrive/Pictures/Хлам/assets/intro.png</pixmap>
+       <pixmap>assets/intro.png</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>

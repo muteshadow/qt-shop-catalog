@@ -1,9 +1,9 @@
-#include "catalogwindow.h"
+#include "windows/catalogwindow.h"
 #include <QHBoxLayout>
 #include <QLabel>
 #include <QDebug>
-#include "productdetails.h"
-#include "producteditor.h"
+#include "widgets/productdetails.h"
+#include "widgets/producteditor.h"
 
 CatalogWindow::CatalogWindow(QWidget *parent)
     : QDialog(parent)

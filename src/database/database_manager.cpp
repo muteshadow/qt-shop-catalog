@@ -1,4 +1,4 @@
-#include "database_manager.h"
+#include "database/database_manager.h"
 #include <QSqlError>
 
 // Singleton
@@ -10,7 +10,7 @@ DatabaseManager& DatabaseManager::instance() {
 // Підключення до БД
 bool DatabaseManager::connectToDatabase() {
     db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("D:/Qt Programs/ShopCatalog/products.db");
+    db.setDatabaseName("data/products.db");
 
     if (!db.open()) {
         qDebug() << "Error opening database:" << db.lastError().text();

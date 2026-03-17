@@ -3,7 +3,7 @@
 
 #include <QDialog>
 #include <vector>
-#include "database_manager.h"
+#include "database/database_manager.h"
 
 class QVBoxLayout;
 

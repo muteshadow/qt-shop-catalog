@@ -1,4 +1,4 @@
-#include "favoriteswindow.h"
+#include "windows/favoriteswindow.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QLabel>

@@ -1,10 +1,10 @@
-#include "productdetails.h"
+#include "widgets/productdetails.h"
 #include <QVBoxLayout>
 #include <QLabel>
 #include <QPushButton>
 #include <QPixmap>
 #include <QFont>
-#include "savedpopup.h"
+#include "widgets/savedpopup.h"
 
 ProductDetails::ProductDetails(const Product &product, QWidget *parent)
     : QDialog(parent)

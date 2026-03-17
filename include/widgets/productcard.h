@@ -6,7 +6,7 @@
 #include <QPushButton>
 #include <QVBoxLayout>
 #include <QHBoxLayout>
-#include "database_manager.h"
+#include "database/database_manager.h"
 
 class QLabel;
 class QVBoxLayout;

@@ -5,8 +5,8 @@
 #include <QVBoxLayout>
 #include <QScrollArea>
 #include <QPushButton>
-#include "database_manager.h"
-#include "productcard.h"
+#include "database/database_manager.h"
+#include "widgets/productcard.h"
 
 class CatalogWindow : public QDialog
 {

@@ -4,10 +4,10 @@
 #include <QMainWindow>
 #include <vector>
 
-#include "database_manager.h"
-#include "favoriteswindow.h"
-#include "cartwindow.h"
-#include "productcard.h"
+#include "database/database_manager.h"
+#include "windows/favoriteswindow.h"
+#include "windows/cartwindow.h"
+#include "widgets/productcard.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

@@ -6,7 +6,7 @@
 #include <QTextEdit>
 #include <QDoubleSpinBox>
 #include <QPushButton>
-#include "database_manager.h"
+#include "database/database_manager.h"
 
 class ProductEditor : public QDialog
 {
