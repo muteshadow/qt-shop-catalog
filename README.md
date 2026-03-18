@@ -21,7 +21,7 @@ It allows users to browse products, view details, and manage a shopping cart and
 
 Full project documentation (UML, test cases, database schema, etc.) is available here:
 
-👉 [Full project description](docs/description.md)
+👉 [Full project description](docs/README.md)
 
 ## 📌 Purpose
 
